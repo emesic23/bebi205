@@ -14,7 +14,7 @@ Parameters like epochs can be modified as needed.
 
 At the very bottom, I have code to run predictions, which generates the
 confusion matrix and returns predictions along with the correct labels given 
-an X = images, and a y = labels
+X and y as defined in the spec
 
 In my testing here, my model was able to achieve mediocre performance, likely
 hampered by the amount of data my system could handle without jupyter crashing.
